@@ -16,8 +16,8 @@ together_api_key = os.environ.get("TOGETHER_API_KEY")  # New API key for Togethe
 client = Together(api_key=together_api_key)
 
 # Bot Configuration
-name = "Your name or nickname"  # The bot will consider this person as its owner or creator
-bot_name = "Give a name to your bot"  # This will be the name of your bot
+name = "AutoBot"  # The bot will consider this person as its owner or creator
+bot_name = "AutoBot AI"  # This will be the name of your bot
 model_name = "gemini-1.5-flash-latest"  # Switch to "gemini-1.0-pro" if needed
 
 # Flask App Setup
